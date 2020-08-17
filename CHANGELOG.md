@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/mpielvitori/semantic-release-usage/compare/v1.1.1...v1.2.0) (2020-08-17)
+
+
+### Features
+
+* update readme with github config ([c9161ef](https://github.com/mpielvitori/semantic-release-usage/commit/c9161ef97d7929aa78203e8b9d220dd1bc813ec0))
+
 ## [1.1.1](https://github.com/mpielvitori/semantic-release-usage/compare/v1.1.0...v1.1.1) (2020-08-17)
 
 
