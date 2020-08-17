@@ -17,16 +17,17 @@ jobs:
     - name: get commit message
       run: |
           echo ::set-env name=commitmsg::$(git log --format=%B -n 1 ${{ github.event.after }})
-    - name: show commit message
-      run : echo $commitmsg
-
     - name: Install commitlint
       run : npm i -g @commitlint/cli @commitlint/config-conventional
     - name: Validate last commit
       run : echo $commitmsg | commitlint
 
     - name: Install Packages
-      run: npm install -D @semantic-release/exec @semantic-release/changelog @semantic-release/github @semantic-release/git
+      run: |
+          npm install -D @semantic-release/exec \
+                         @semantic-release/changelog \
+                         @semantic-release/github \
+                         @semantic-release/git
 
     - name: Run Semantic Release
       run: npx semantic-release
