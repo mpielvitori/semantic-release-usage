@@ -60,8 +60,9 @@ module.exports = {
     // updates the changelog file
     '@semantic-release/changelog',
     '@semantic-release/git',
-    // creating a git tag
+    // creating tag - uncomment for gitlab
     // '@semantic-release/gitlab',
+    // creating tag - comment for gitlab
     '@semantic-release/github',
     // run events commands
     ['@semantic-release/exec', execCommands],
