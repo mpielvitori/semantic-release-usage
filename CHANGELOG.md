@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/mpielvitori/semantic-release-usage/compare/v1.0.0...v1.1.0) (2020-08-17)
+
+
+### Features
+
+* get last commit ([71d7c23](https://github.com/mpielvitori/semantic-release-usage/commit/71d7c23682b289e8631fee3ae055f6573d69e4b6))
+
 # 1.0.0 (2020-08-17)
 
 
