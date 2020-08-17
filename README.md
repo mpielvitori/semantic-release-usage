@@ -1,8 +1,11 @@
-# Semantic release basic usage
+# Semantic release with commitlint basic usage
 
 Semantic release automates the whole package release workflow including: determining the next version number, generating the release notes and publishing the package.
 
 This removes the immediate connection between human emotions and version numbers, strictly following the [Semantic Versioning](https://semver.org/) specification.
+
+Also with the addition of commit validation with [commitllint](https://commitlint.js.org).
+You can check my repo [commitlint-usage](https://github.com/mpielvitori/commitlint-usage) to see several ways of commitlint usage.
 
 ## GitLab usage
 
@@ -29,6 +32,6 @@ In this project I just log the version to keep it simple `echo "Version -> $(cat
   * Configure semantic release taking as an example the [.releaserc.js](.releaserc.js) file.
 
 ## References
-* [Semantic release Wiki](https://semantic-release.gitbook.io/semantic-release/)
+* [Semantic release Wiki](https://semantic-release.gitbook.io/semantic-release)
 * [Semantic release project](https://github.com/semantic-release/semantic-release)
-
+* [Commitlint](https://github.com/conventional-changelog/commitlint)
