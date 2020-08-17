@@ -1,3 +1,13 @@
+## [1.1.1](https://github.com/mpielvitori/semantic-release-usage/compare/v1.1.0...v1.1.1) (2020-08-17)
+
+
+### Bug Fixes
+
+* good commit ([8aac6ef](https://github.com/mpielvitori/semantic-release-usage/commit/8aac6efdc48c53406c7cdf5a4f64f466ef5469c5))
+
+
+* bad commit msg ([716b85c](https://github.com/mpielvitori/semantic-release-usage/commit/716b85c30741ad829452f9b9473c62d2c2796354))
+
 # [1.1.0](https://github.com/mpielvitori/semantic-release-usage/compare/v1.0.0...v1.1.0) (2020-08-17)
 
 
