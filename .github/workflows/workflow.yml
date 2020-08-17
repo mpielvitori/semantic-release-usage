@@ -22,7 +22,7 @@ jobs:
     - name: Validate last commit
       run : echo $commitmsg | commitlint
 
-    - name: Install Packages
+    - name: Install semantic release packages
       run: |
           npm install -D @semantic-release/exec \
                          @semantic-release/changelog \
