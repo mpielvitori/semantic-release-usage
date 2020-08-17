@@ -15,7 +15,7 @@ jobs:
         node-version: '12.16.2'
 
     - name: Install Packages
-      run: npm install -D @semantic-release/exec @semantic-release/changelog @semantic-release/gitlab @semantic-release/git
+      run: npm install -D @semantic-release/exec @semantic-release/changelog @semantic-release/github @semantic-release/git
 
     - name: Run Semantic Release
       run: npx semantic-release
