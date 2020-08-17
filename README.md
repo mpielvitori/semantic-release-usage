@@ -4,7 +4,8 @@ Semantic release automates the whole package release workflow including: determi
 
 This removes the immediate connection between human emotions and version numbers, strictly following the [Semantic Versioning](https://semver.org/) specification.
 
-Also with the addition of commit validation with [commitllint](https://commitlint.js.org).
+Also with the addition of commit validation with [commitllint](https://commitlint.js.org) in order to avoid wrong commit messages.
+
 You can check my repo [commitlint-usage](https://github.com/mpielvitori/commitlint-usage) to see several ways of commitlint usage.
 
 ## GitLab usage
