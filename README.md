@@ -22,3 +22,4 @@ In this project I just log the version to keep it simple `echo "Version -> $(cat
 ## References
 * [Semantic release Wiki](https://semantic-release.gitbook.io/semantic-release/)
 * [Semantic release project](https://github.com/semantic-release/semantic-release)
+
